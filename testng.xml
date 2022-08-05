@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <groups>
+<run>
+<include name="Sanity"/>
+</run>
+</groups> -->
+  <test name="API Testing" verbose="0">
+    <classes>
+      <!-- <class name="sdet.training.AlertTest"/>
+      <class name="sdet.training.DatePicker"/>
+      <class name="sdet.training.FrameTest"/>
+      <class name="sdet.training.PracticeTest"/>
+      <class name="sdet.training.Register"/>
+      <class name="sdet.training.UserRegistrationTest"/>
+      <class name="sdet.training.WindowsTest"/> -->
+      <class name="runner.TestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
